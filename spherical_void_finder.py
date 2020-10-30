@@ -5,7 +5,7 @@ from python_tools.sphericalvoids import SphericalVoids
 @click.command()
 @click.option('--centres_filename', type=str, required=True)
 @click.option('--tracers_filename', type=str, required=True)
-@click.option('--ouput_handle', type=str, required=True)
+@click.option('--output_handle', type=str, required=True)
 @click.option('--ncores', type=int, default=1)
 @click.option('--steps', type=str, default='1,2,3,4')
 @click.option('--pos_cols', type=str, default='0,1,2')
